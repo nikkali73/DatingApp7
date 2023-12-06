@@ -1,0 +1,11 @@
+[*.{cs,vb}]
+dotnet_naming_rule.private_members_with_underscore.symbol = private_fields
+dotnet_naming_rule.private_members_with_underscore.style = prefix_underscore
+dotnet_naming_rule.private_members_with_underscore.severity = suggestion
+
+dotnet_naming_rule.private_fields.applicable_kinds = field
+dotnet_naming_rule.private_fields.applicable_accessibilities = private
+
+# Define the 'prefix underscored' naming style
+dotnet_naming_style.prefix_underscored.capitalization = camel_case
+dotnet_naming_style.prefix_underscored.required_prefix = _
